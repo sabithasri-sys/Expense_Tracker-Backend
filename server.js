@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-const MONGO_URI = 'mongodb+srv://sabithasri:sansabi@cluster0.2mqyvhk.mongodb.net/Expense?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = 'mongodb+srv://sabithasrisri:sansabi123@cluster0.infgnvn.mongodb.net/expenses?retryWrites=true&w=majority&appName=Cluster0';
 
 const connectDB = async () => {
   try {
@@ -115,3 +115,4 @@ connectDB().then(() => {
     console.log(` Server is running on http://localhost:${PORT}`);
   });
 });
+
